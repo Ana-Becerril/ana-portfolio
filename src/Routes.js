@@ -4,6 +4,7 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 import styles from './style/routes.module.css';
+import particles from './particle.js';
 import Particles from 'react-particles-js';
 
 
@@ -13,9 +14,11 @@ const Routes = () =>
       <div id="particles-js"></div>
 
       <div class={styles.Particles}>
-         <span class="js-count-particles">--
-  </span> particles
-</div>
+         <Particles
+         params={particles}
+         className="particle"
+         />
+      </div>
 
       <HashRouter>
          <Switch>

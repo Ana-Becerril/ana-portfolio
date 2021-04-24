@@ -5,7 +5,7 @@ const Home = () =>
 (
   
   <div className={styles.mainContainer}>
-  <p>Hello from home</p>
+  <p></p>
 </div>
   
 );
