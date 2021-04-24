@@ -1,14 +1,14 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+import styles from './style/home.module.css';
 
-
-
-Analytics()
-  return (
-      <div>
-        
-      </div>
-    );
+const Home = () =>
+(
+  
+  <div className={styles.mainContainer}>
+  <p>Hello from home</p>
+</div>
+  
+);
 
 
 export default Home;
