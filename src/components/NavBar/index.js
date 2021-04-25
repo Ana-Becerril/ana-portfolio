@@ -1,14 +1,12 @@
 import React from 'react';
-import styles from './style.css';
+import styles from './style.module.css';
 
 const NavBar =()=>(
 
-<div>
-    <div className={styles.NavContainer}>
+<div className={styles.navContainer} >
+    <div>
         <ul>
-            <li>
-                
-            </li>
+            <li>knkn</li>
         </ul>
 
     </div>

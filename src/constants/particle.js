@@ -2,7 +2,7 @@ const particles = {
   
     "particles": {
       "number": {
-        "value": 80,
+        "value": 65,
         "density": {
           "enable": true,
           "value_area": 800
@@ -37,7 +37,7 @@ const particles = {
         }
       },
       "size": {
-        "value": 4,
+        "value": 3,
         "random": true,
         "anim": {
           "enable": false,
