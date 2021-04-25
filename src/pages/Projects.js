@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () =>
   (
       <div>
-        <p>Hello from home</p>
+          <h1>Projects here!</h1>
       </div>
     );
 
