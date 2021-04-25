@@ -6,9 +6,7 @@ import NavBar from '../components/NavBar';
 const Home = ()=>
 (
   <div className={styles.homeContainer}>
-
                <NavBar />
-               <p>Que pedo </p>
          </div>
   
 );
