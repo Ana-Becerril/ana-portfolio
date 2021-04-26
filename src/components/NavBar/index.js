@@ -11,14 +11,6 @@ const NavBar = () => (
             <div className= {styles.contact}>CONTACT</div>
         </div>
     </div>
-
-
-
-
-
-
-
-
 );
 
 export default NavBar;
