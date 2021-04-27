@@ -1,9 +1,13 @@
 import React from 'react';
+import styles from '../style/about.module.css'
+import AboutLeft from '../components/AboutLeft'
+import AboutRight from '../components/AboutRight'
 
 const About = () =>
   (
-      <div>
-          <h1>About here!</h1>
+      <div className={styles.aboutContainer}>
+          <AboutLeft/>
+          <AboutRight/>
       </div>
     );
 
