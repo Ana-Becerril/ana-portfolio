@@ -3,7 +3,7 @@ import styles from '../style/home.module.css'
 import HomeMain from '../components/HomeMain'
 import NavBar from '../components/NavBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSortDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown} from '@fortawesome/free-solid-svg-icons';
 
 
 const Home = ()=>
@@ -11,7 +11,7 @@ const Home = ()=>
   <div className={styles.homeContainer}>
                <NavBar />
                <HomeMain />
-               <FontAwesomeIcon icon ={faSortDown} className={styles.arrowIcon}/>
+               <FontAwesomeIcon icon ={faChevronDown} className={styles.arrowIcon}/>
          </div>
   
 );
