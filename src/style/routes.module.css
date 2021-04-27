@@ -1,14 +1,20 @@
 
-body, html, .RouterContainer{
+body, html, .routerContainer{
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+}
+
+.routerContainer{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
 }
 
 body > div{
     width: 100%;
     height: 100%;
+   
 }
 
 #particles-js {

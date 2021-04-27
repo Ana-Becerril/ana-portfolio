@@ -14,7 +14,7 @@ const Routes = () =>
       <HashRouter>
       <div id="particles-js">
       </div>
-      <div class={styles.particle}>
+      <div className={styles.particle}>
          <Particles
          params={particles}
          className="particle"
@@ -22,10 +22,12 @@ const Routes = () =>
                <NavBar />
          </div>
          <Switch>
+               <div className={styles.routerContainer}>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
+            </div>
          </Switch>
       </HashRouter>
    
