@@ -4,6 +4,7 @@ import AboutLeft from '../components/AboutLeft'
 import AboutRight from '../components/AboutRight'
 
 const About = () =>
+
   (
       <div className={styles.aboutContainer}>
           <AboutLeft/>
