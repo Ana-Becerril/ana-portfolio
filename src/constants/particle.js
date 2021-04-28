@@ -77,7 +77,7 @@ const particles = {
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": ""
         },
         "resize": true
       },
