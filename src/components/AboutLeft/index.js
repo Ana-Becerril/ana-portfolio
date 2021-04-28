@@ -1,10 +1,13 @@
 import React from 'react';
 import styles from './style.module.css'
+import ProfileAna from '../../images/profileana.jpg'
 
 const AboutLeft = () => (
 
     <div className={styles.parent}>
-        hello
+        <div className= { styles.photoContainer }>
+        <img src={ProfileAna} className={styles.profileAna}/>
+        </div>
     </div>
 
 );

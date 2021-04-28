@@ -9,3 +9,8 @@ body > div{
     height: 100%;
 
 }
+
+.parent{
+    width: 50%;
+    height: 100%;
+}

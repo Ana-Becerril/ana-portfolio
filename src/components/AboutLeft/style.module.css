@@ -9,3 +9,19 @@ body > div{
     height: 100%;
 
 }
+
+.parent{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.profileAna{
+    width:343px;
+    height: 442px;
+    padding-top: 20px;
+}
