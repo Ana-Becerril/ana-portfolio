@@ -12,6 +12,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto-Mono';
+  src: url('./fonts/RobotoMono-VariableFont_wght.woff') format('woff');
+  font-weight: 400;
+  font-style: regular;
+}
+
+
 body {
   margin: 0;
 }

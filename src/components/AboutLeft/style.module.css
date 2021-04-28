@@ -11,14 +11,23 @@ body > div{
 }
 
 .parent{
-    width: 50%;
+    width: 45%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
-
+.photoContainer{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(236, 182, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 
 .profileAna{
     width:343px;
