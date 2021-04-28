@@ -1,9 +1,14 @@
 import React from 'react';
+import styles from '../style/projects.module.css'
+import ProjectsLeft from '../components/ProjectsLeft'
+import ProjectsRight from '../components/ProjectsRight'
 
 const Projects = () =>
+
   (
-      <div>
-          <h1>Projects here!</h1>
+      <div className={styles.projectsContainer}>
+        <ProjectsLeft/>
+        <ProjectsRight/>
       </div>
     );
 

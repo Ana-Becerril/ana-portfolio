@@ -1,0 +1,15 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.projectsContainer{
+    height: 100vh;
+    width: 100%;
+}
+
+.projectsContainer{
+        overflow-y: hidden;
+        display: flex;
+}

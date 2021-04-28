@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './About'
+import Projects from './Projects';
 import particles from '../constants/particle.js'
 import Particles from 'react-particles-js';
 import NavBar from '../components/NavBar/index'
@@ -27,7 +28,9 @@ const Home = () =>
             <div>
                   <About />
             </div>
-      
+            <div>
+                  <Projects />
+            </div>
 
       </div>
 
