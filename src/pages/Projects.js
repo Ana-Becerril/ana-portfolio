@@ -7,8 +7,11 @@ const Projects = () =>
 
   (
       <div className={styles.projectsContainer}>
+      <div className={styles.title}>PROJECTS</div>
+      <div className={styles.projectsList}>
         <ProjectsLeft/>
         <ProjectsRight/>
+        </div>
       </div>
     );
 
