@@ -9,6 +9,7 @@ import HomeMain from '../components/HomeMain'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import Animista, { AnimistaTypes } from 'react-animista'
+import ProjectsTwo from './PrtojectsTwo';
 
 
 const Home = () =>
@@ -30,6 +31,9 @@ const Home = () =>
             </div>
             <div>
                   <Projects />
+            </div>
+            <div>
+                  <ProjectsTwo/>
             </div>
 
       </div>
