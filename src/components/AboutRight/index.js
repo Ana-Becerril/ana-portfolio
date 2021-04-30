@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from './style.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircle } from '@fortawesome/free-solid-svg-icons'
 
 
 const AboutRight = () => (

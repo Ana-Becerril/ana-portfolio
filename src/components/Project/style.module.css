@@ -1,11 +1,18 @@
 .parent{
     width: 50%;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
+.titleProject{
+    width: 100%;
+    height: 20%;
+    color: white;
+     font-size: 25px;
+    font-family: 'Quicksand-Light',sans-serif;
+
+}
 .projectOne{
     width: 100%;
     height: 100%;
@@ -16,7 +23,8 @@
     align-content: center;
 }
 
-.eggd{
+.mokup{
+    object-fit: cover;
     width: 600px;
-    height: 600px;
+    height: 355px;
 }
