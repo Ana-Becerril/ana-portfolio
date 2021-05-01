@@ -34,7 +34,9 @@ const Home = () =>
                   <Projects />
             </div>
             <div>
-                  <ProjectsTwo/>
+                  <ProjectsTwo
+                  isBlack
+                  isCentered/>
             </div>
             <div>
                   <Contact/>
