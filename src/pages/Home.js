@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import Animista, { AnimistaTypes } from 'react-animista'
 import ProjectsTwo from './PrtojectsTwo';
+import Contact from './Contact';
 
 
 const Home = () =>
@@ -34,6 +35,9 @@ const Home = () =>
             </div>
             <div>
                   <ProjectsTwo/>
+            </div>
+            <div>
+                  <Contact/>
             </div>
 
       </div>

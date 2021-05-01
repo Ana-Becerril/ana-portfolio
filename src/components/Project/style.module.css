@@ -28,3 +28,21 @@
     width: 600px;
     height: 355px;
 }
+
+.buttonsContainer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonGithub, .buttonLive{
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    margin: 15px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Poppins-Ligth';
+
+}

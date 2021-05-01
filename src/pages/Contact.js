@@ -1,10 +1,16 @@
 import React from 'react';
+import styles from '../style/contact.module.css'
+import ContactLeft from '../components/ContactLeft'
+import ContactRight from '../components/ContactRight'
 
 const Contact= () =>
-  (
-      <div>
-          <h1>Contact here!</h1>
+  ( <>
+      <div className={styles.contactContainer}>
+        
+          <ContactLeft/>
+          <ContactRight/>
       </div>
+      </>
     );
 
 
