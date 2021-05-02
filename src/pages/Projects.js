@@ -3,7 +3,8 @@ import styles from '../style/projects.module.css'
 import Project from '../components/Project'
 import ApodD from '../images/apodd.png'
 import EggD from '../images/eggd.png'
-
+import ApodM from '../images/apodm.png'
+import EggM from '../images/eggm.png'
 
 const Projects = () =>
 
@@ -13,10 +14,12 @@ const Projects = () =>
       <div className={styles.projectsList}>
         <Project
         title="APOD NASA"
-        image={ApodD}/>
+        image={ApodD}
+        imageMobile={ApodM}/>
         <Project
         title="Eggcellent Restaurant"
-        image={EggD}/>
+        image={EggD}
+        imageMobile={EggM}/>
         </div>
       </div>
     );

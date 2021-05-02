@@ -2,8 +2,9 @@ import React from 'react';
 import styles from '../style/projectstwo.module.css'
 import Project from '../components/Project'
 import TnwD from '../images/tnwd.png'
+import TnwM from '../images/tnwm.png'
 
-const ProjectsTwo = ({isBlack, isCentered}) =>
+const ProjectsTwo = ({isBlack, isCentered, imageMobile}) =>
 
 
   (
@@ -13,7 +14,8 @@ const ProjectsTwo = ({isBlack, isCentered}) =>
       isBlack={isBlack}
       isCentered={isCentered}
       title="TNW Clone"
-      image={TnwD}/>
+      image={TnwD}
+      imageMobile={TnwM}/>
       </div>
     </div>
 

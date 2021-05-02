@@ -21,19 +21,38 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: cornflowerblue;
+    
+}
+
+.mokupContainer{
+    display: flex;
+    width: 100%;
+    height:100%;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
 }
 
 .mokup{
     object-fit: cover;
-    width: 600px;
-    height: 355px;
+    width: 550px;
+    height: 305px;
+}
+
+.mokupMobile{
+    width: 150px;
+    height: 300px;
+    z-index: 2;
+
 }
 
 .buttonsContainer{
     width: 100%;
-    height: 10%;
+    height: 100%;
     display: flex;
     justify-content: center;
+    background-color: blueviolet;
 }
 
 .buttonGithub, .buttonLive{
