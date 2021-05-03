@@ -6,7 +6,7 @@ const AboutLeft = () => (
 
     <div className={styles.parent}>
         <div className= { styles.photoContainer }>
-        <img alt="Ana Picture" src={ProfileAna} className={styles.profileAna}/>
+        <img alt="Ana" src={ProfileAna} className={styles.profileAna}/>
         </div>
     </div>
 
