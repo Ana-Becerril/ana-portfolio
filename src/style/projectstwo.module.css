@@ -16,3 +16,9 @@ body, html {
         justify-content: center;
     text-align: center;
 }
+
+
+.projectsList{
+    display: flex;
+
+}

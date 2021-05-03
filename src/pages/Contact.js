@@ -6,9 +6,11 @@ import ContactRight from '../components/ContactRight'
 const Contact= () =>
   ( <>
       <div className={styles.contactContainer}>
-        
+      <div className={styles.title}>CONTACT</div>
+      <div className={styles.contactParent}>
           <ContactLeft/>
           <ContactRight/>
+          </div>
       </div>
       </>
     );

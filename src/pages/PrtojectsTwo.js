@@ -3,8 +3,10 @@ import styles from '../style/projectstwo.module.css'
 import Project from '../components/Project'
 import TnwD from '../images/tnwd.png'
 import TnwM from '../images/tnwm.png'
+import PortfolioD from '../images/portfoliod.png'
+import PortfolioM from '../images/portfoliom.png'
 
-const ProjectsTwo = ({isBlack, isCentered, imageMobile}) =>
+const ProjectsTwo = ({isBlack, imageMobile}) =>
 
 
   (
@@ -12,10 +14,14 @@ const ProjectsTwo = ({isBlack, isCentered, imageMobile}) =>
     <div className={styles.projectsList}>
       <Project
       isBlack={isBlack}
-      isCentered={isCentered}
       title="TNW Clone"
       image={TnwD}
       imageMobile={TnwM}/>
+      <Project
+      isBlack={isBlack}
+      title="Alex's Portfolio"
+      image={PortfolioD}
+      imageMobile={PortfolioM}/>
       </div>
     </div>
 
