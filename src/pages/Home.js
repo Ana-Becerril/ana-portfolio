@@ -39,6 +39,17 @@ const Home = () =>
                   isCentered/>
             </div>
             <div>
+                  <Projects />
+            </div>
+            <div>
+                  <ProjectsTwo
+                  isBlack
+                  isCentered/>
+            </div>
+            <div>
+                  <Projects />
+            </div>
+            <div>
                   <Contact/>
             </div>
 

@@ -1,24 +1,14 @@
 .parent{
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    overflow-x: hidden;
 }
 
-.titleProject{
-    width: 80%;
-    height: 20%;
-    color: white;
-     font-size: 25px;
-    font-family: 'Quicksand-Light',sans-serif;
-    padding-bottom: 25px;
-
-}
 .projectOne{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -27,7 +17,7 @@
 
 .mokupContainer{
     display: flex;
-    width: 100%;
+    width: 50%;
     height:100%;
     align-items: center;
     justify-content: center;
@@ -36,17 +26,84 @@
 
 .mokup{
     object-fit: cover;
-    width: 550px;
-    height: 305px;
+    width: 660px;
+    height: 405px;
 }
 
 .mokupMobile{
-    width: 150px;
-    height: 300px;
+    width: 200px;
+    height: 380px;
     position: absolute;
-    right: 55px;
-    top:35px
+    right: 30px;
+    top:50px
 
+}
+
+.infoContainer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.titleProject{
+   width: 100%;
+   height: 9%;
+    color: white;
+     font-size: 40px;
+     font-family: 'Poppins-Ligth';
+    padding-bottom: 25px;
+
+}
+
+.year{
+    width: 100%;
+    height: 3%;
+    color: white;
+     font-size: 20px;
+     font-family: 'Poppins-Ligth';
+    padding-bottom: 25px;
+}
+
+.infoProject{
+    width: 90%;
+    height: 30%;
+    color: white;
+     font-size: 20px;
+     text-align: justify;
+     font-family: 'Poppins-Ligth';
+    padding: 25px;
+}
+
+.stackContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding-left: 24px;
+    flex-direction: column;
+}
+
+.stackTitle{
+    width: 100%;
+    height: 50%;
+    color: white;
+     font-size: 20px;
+     font-family: 'Poppins-Ligth';
+}
+.stackList{
+    display: flex;
+}
+
+.stack{
+    width: 110px;
+    height: 30px;
+    color: white;
+    padding:20px;
+     font-size: 20px;
+     font-family: 'Poppins-Ligth';
 }
 
 .buttonsContainer{

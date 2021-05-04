@@ -17,11 +17,6 @@ const ProjectsTwo = ({isBlack, imageMobile}) =>
       title="TNW Clone"
       image={TnwD}
       imageMobile={TnwM}/>
-      <Project
-      isBlack={isBlack}
-      title="Alex's Portfolio"
-      image={PortfolioD}
-      imageMobile={PortfolioM}/>
       </div>
     </div>
 
