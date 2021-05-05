@@ -4,6 +4,8 @@ import Project from '../components/Project'
 import ApodD from '../images/apodd.png'
 import ApodM from '../images/apodm.png'
 
+const stacks= [{title: "JavaScript"}, { title: "CSS"}];
+
 const Projects = () =>
 
   (
@@ -15,9 +17,8 @@ const Projects = () =>
         image={ApodD}
         imageMobile={ApodM}
         year="2021"
-        description= "A web site that show the Astronomy Picture Of the Day by the NASA. By clicking on the button, the page displays the image with its respective title and description. The images are really awesome."
-        stack="JavaScript"
-        stackTwo="CSS"/>
+        stacksList={stacks}
+        description= "A web site that show the Astronomy Picture Of the Day by the NASA. By clicking on the button, the page displays the image with its respective title and description. The images are really awesome."/>
         </div>
       </div>
     );
