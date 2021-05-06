@@ -8,7 +8,7 @@ const ContactLeft = () => (
     <>
     <div className={styles.parent}>
         <div className={styles.title}> Say Hello!</div>
-        <p className={styles.body}> ⭐If you have any queries/ideas/projects, feel free to let me know. You can contact me via the Contact Form or simply click on the social media icon if you are more comfortable there.⭐</p>
+        <p className={styles.body}> ⭐If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it. You can contact me via the Contact Form or simply click on the social media icon.⭐</p>
         <div className={styles.iconsBar}>
             <FontAwesomeIcon icon ={faGithubSquare} className={styles.githubIcon}/>
             <FontAwesomeIcon icon ={faLinkedin} className={styles.linkedinIcon}/>

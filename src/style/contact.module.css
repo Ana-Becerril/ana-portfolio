@@ -4,12 +4,13 @@ body, html {
 }
 
 .contactContainer{
-    height:100vh;
+    height:92vh;
     width: 100%;
         overflow-y: hidden;
         display: flex;
         text-align: center;
         flex-direction: column;
+        background-color:rgb(236, 182, 2);
 
 
 }
@@ -17,7 +18,7 @@ body, html {
 .title{
     width: 100%;
     height: 15%;
-    color:white;
+    color:black;
     font-size: 30px;
     font-family: 'Poppins-Ligth';
     letter-spacing: 5px;

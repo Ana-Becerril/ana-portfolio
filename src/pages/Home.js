@@ -10,13 +10,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import Animista, { AnimistaTypes } from 'react-animista'
 import Contact from './Contact';
-import EggD from '../images/eggd.png'
-import EggM from '../images/eggm.png'
-
-const stacks= [{title: "JavaScript"}, { title: "CSS"}];
 
 
-const Home = ({title, image, imageMobile, description, year, stacksList, isBlack = false}) =>
+const Home = () =>
 (
       <div>
             <div id="particles-js"></div>
