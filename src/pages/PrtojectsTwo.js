@@ -4,6 +4,7 @@ import Project from '../components/Project'
 import EggD from '../images/eggd.png'
 import EggM from '../images/eggm.png'
 
+const stacks= [{title: "JavaScript"}, { title: "CSS"}];
 const ProjectsTwo = ({isBlack, imageMobile}) =>
 
 
@@ -16,9 +17,8 @@ const ProjectsTwo = ({isBlack, imageMobile}) =>
       image={EggD}
       imageMobile={EggM}
       year="2021"
-      description= "A web site that show the Astronomy Picture Of the Day by the NASA. By clicking on the button, the page displays the image with its respective title and description. The images are really awesome."
-      stack="⭐JavaScript"
-      stackTwo="⭐CSS"/>
+      stackList={stacks}
+      description= "A breakfast restaurant page with client-side which allows users to toggle between the restaurant shop page, menu, and contact information."/>
       </div>
     </div>
 

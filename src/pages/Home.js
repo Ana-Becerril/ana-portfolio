@@ -9,11 +9,14 @@ import HomeMain from '../components/HomeMain'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import Animista, { AnimistaTypes } from 'react-animista'
-import ProjectsTwo from './PrtojectsTwo';
 import Contact from './Contact';
+import EggD from '../images/eggd.png'
+import EggM from '../images/eggm.png'
+
+const stacks= [{title: "JavaScript"}, { title: "CSS"}];
 
 
-const Home = () =>
+const Home = ({title, image, imageMobile, description, year, stacksList, isBlack = false}) =>
 (
       <div>
             <div id="particles-js"></div>
@@ -29,22 +32,6 @@ const Home = () =>
             </div>
             <div>
                   <About />
-            </div>
-            <div>
-                  <Projects />
-            </div>
-            <div>
-                  <ProjectsTwo
-                  isBlack
-                  isCentered/>
-            </div>
-            <div>
-                  <Projects />
-            </div>
-            <div>
-                  <ProjectsTwo
-                  isBlack
-                  isCentered/>
             </div>
             <div>
                   <Projects />

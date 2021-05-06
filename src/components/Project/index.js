@@ -2,10 +2,10 @@ import { faStackpath } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import styles from './style.module.css'
 
-const Project = ({ title, image, imageMobile, description, year, stacksList, stack, stackTwo, stackThree, isBlack = false}) => {
+const Project = ({ title, image, imageMobile, description, year, stacksList, isBlack = false}) => {
     return (
 
-        <div className={styles.parent}>
+        <div style={{ backgroundColor: isBlack ? 'rgb(236, 182, 2)' : 'black' }} className={styles.parent}>
                 <div className={styles.mokupContainer}>
                     <img alt="mockup" src={image} className={styles.mokup} />
                     <img alt="mockup" src={imageMobile} className={styles.mokupMobile} />

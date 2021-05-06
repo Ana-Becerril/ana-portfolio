@@ -4,7 +4,7 @@ body, html {
 }
 
 .projectsContainer{
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -23,9 +23,11 @@ body, html {
     font-family: 'Poppins-Ligth';
     letter-spacing: 5px;
     padding-top: 15px;
+    display: block;
 }
 
 .projectsList{
     display: flex;
+    flex-direction: column;
 
 }
