@@ -9,6 +9,8 @@ import DrumD from '../images/drumd.png'
 import DrumM from '../images/drumm.png'
 import TnwD from '../images/tnwd.png'
 import TnwM from '../images/tnwm.png'
+import PortfolioD from '../images/portfoliod.png'
+import PortfolioM from '../images/portfoliom.png'
 
 const stacks= [{title: "JavaScript"}, { title: "CSS"}];
 
@@ -48,6 +50,13 @@ const Projects = () =>
         year="2021"
         stacksList={stacks}
         description= "A pixel perfect responsive clone of the The Next Web website built with Grid and Flexbox. "/>
+         <Project
+        title="Alex's Portfolio"
+        image={PortfolioD}
+        imageMobile={PortfolioM}
+        year="2020"
+        stacksList={stacks}
+        description= "A minimalist portfolio collaboratively built under the programming scheme in pairs  "/>
         </div>
       </div>
     );
