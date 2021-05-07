@@ -20,7 +20,7 @@ const Home = () =>
                   <Particles params={particles} className="particle" />
                   <NavBar />
             </div>
-            <div className={styles.homeContainer}>
+            <div id="home" className={styles.homeContainer}>
                   <HomeMain />
                   <Animista iterationCount={300} duration="1s" type={AnimistaTypes.SLIDE_BCK_BOTTOM}>
                         <FontAwesomeIcon icon={faChevronDown} className={styles.arrowIcon} />

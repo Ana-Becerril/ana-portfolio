@@ -6,7 +6,7 @@ import AboutRight from '../components/AboutRight'
 const About = () =>
 
   (
-      <div className={styles.aboutContainer}>
+      <div id="about" className={styles.aboutContainer}>
           <AboutLeft/>
           <AboutRight/>
       </div>

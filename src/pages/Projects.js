@@ -17,7 +17,7 @@ const stacks= [{title: "JavaScript"}, { title: "CSS"}];
 const Projects = () =>
 
   (
-      <div className={styles.projectsContainer}>
+      <div id="projects" className={styles.projectsContainer}>
       <div className={styles.title}>PROJECTS</div>
       <div className={styles.projectsList}>
         <Project
