@@ -1,4 +1,3 @@
-import { faStackpath } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import styles from './style.module.css'
 
