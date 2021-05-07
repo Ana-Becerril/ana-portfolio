@@ -26,9 +26,15 @@ const NavBar = () => (
             </div>
         </div>
         <div className={styles.iconsBar}>
+        <a href="https://github.com/Ana-Becerril">
             <FontAwesomeIcon icon ={faGithubSquare} className={styles.githubIcon}/>
+        </a>
+        <a href="https://www.linkedin.com/in/anabecbel/">
             <FontAwesomeIcon icon ={faLinkedin} className={styles.linkedinIcon}/>
+        </a>
+        <a href="https://twitter.com/karenbecbel">
             <FontAwesomeIcon icon ={faTwitterSquare} className={styles.twitterIcon}/>
+        </a>
         </div>
     </div>
 );
