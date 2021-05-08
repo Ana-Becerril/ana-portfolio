@@ -28,8 +28,8 @@ const Project = ({ title, image, imageMobile, description, year, stacksList, isB
                     </div>
                 </div>
                 <div className={styles.buttonsContainer}>
-                    <div style={{ color: isBlack ? 'black' : 'white' }} className={styles.buttonGithub}>REPOSITORY</div>
-                    <div style={{ color: isBlack ? 'black' : 'white' }} className={styles.buttonLive}>LIVE DEMO</div>
+                    <div style={{ color: isBlack ? 'black' : 'white' }} className= {`${styles.buttonGithub} ${styles.coolLink}`}>REPOSITORY</div>
+                    <div style={{ color: isBlack ? 'black' : 'white' }} className={`${styles.buttonLive} ${styles.coolLink}`}>LIVE DEMO</div>
                 </div>
             </div>
         </div>
