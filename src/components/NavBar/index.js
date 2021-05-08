@@ -12,17 +12,17 @@ const NavBar = () => (
 
     <div className={styles.navContainer} >
         <div className={styles.bar}>
-            <div className= {styles.home}>
-            <Link spy smooth to="home">HOME</Link>
+            <div className={`${styles.home} ${styles.coolLink}`}>
+            <Link spy smooth to="home"> <span className={styles.homeText}>HOME</span></Link>
             </div>
-            <div className= {styles.about}>
-            <Link spy smooth to="about">ABOUT</Link>
+            <div className= {`${styles.about} ${styles.coolLink}`}>
+            <Link spy smooth to="about"> <span className={styles.aboutText}>ABOUT</span></Link>
             </div>
-            <div className= {styles.projects}>
-            <Link spy smooth to="projects">PROJECTS</Link>
+            <div className= {`${styles.projects} ${styles.coolLink}`}>
+            <Link spy smooth to="projects"><span className={styles.projectsText}>PROJECTS</span></Link>
             </div>
-            <div className= {styles.contact}>
-            <Link spy smooth to="contact">CONTACT</Link>   
+            <div className= {`${styles.contact} ${styles.coolLink}`}>
+            <Link spy smooth to="contact"><span className={styles.contactText}>CONTACT</span></Link>   
             </div>
         </div>
         <div className={styles.iconsBar}>

@@ -23,18 +23,50 @@
 }
 
 .home, .about, .projects, .contact{
-    padding-top: 10px;
-    width: 20%;
+    padding: 10px 35px 0 0;
     height: 100%;
-    color:white;
-    font-size: 12px;
-    font-family: 'Quicksand-Light', sans-serif;
-    letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .home{
     padding-left: 70px;
 }
+
+.homeText, .aboutText, .projectsText, .contactText{
+    width: 42px;
+    color:white;
+    font-size: 12px;
+    font-family: 'Quicksand-Light', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.aboutText{
+    width: 45px;
+}
+
+.projectsText, .contactText{
+    width: 70px;
+}
+
+.coolLink {
+    text-decoration: none;
+    color:white
+  }
+  
+  .coolLink::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background:white;
+    transition: width 0.1s;
+  }
+  
+  .coolLink:hover::after {
+    width: 100%;
+    transition: width 0.5s;
+  }
 
 .iconsBar{
     height: 100%;
