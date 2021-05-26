@@ -18,7 +18,6 @@ const Home = () =>
             <div id="particles-js"></div>
             <div className={styles.particle}>
                   <Particles params={particles} className="particle" />
-                  <NavBar />
             </div>
             <div id="home" className={styles.homeContainer}>
                   <HomeMain />
