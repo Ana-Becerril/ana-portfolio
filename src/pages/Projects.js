@@ -26,7 +26,8 @@ const Projects = () =>
         imageMobile={ApodM}
         year="2021"
         stacksList={stacks}
-        description= "A web site that show the Astronomy Picture Of the Day by the NASA. By clicking on the button, the page displays the image with its respective title and description. The images are really awesome."/>
+        description= "A web site that show the Astronomy Picture Of the Day by the NASA. By clicking on the button, the page displays the image with its respective title and description. The images are really awesome."
+        linkRepo="https://podnasa.netlify.app/"/>
         <Project
         isBlack
         title="Eggcellent Restaurante"

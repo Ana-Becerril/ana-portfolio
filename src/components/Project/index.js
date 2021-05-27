@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.module.css'
 
-const Project = ({ title, image, imageMobile, description, year, stacksList, isBlack = false }) => {
+const Project = ({ title, image, imageMobile, description, year, stacksList, isBlack = false, linkRepo, linkLive }) => {
     return (
 
         <div style={{ backgroundColor: isBlack ? 'rgb(236, 182, 2)' : 'black' }} className={styles.parent}>
@@ -28,8 +28,9 @@ const Project = ({ title, image, imageMobile, description, year, stacksList, isB
                     </div>
                 </div>
                 <div className={styles.buttonsContainer}>
-                    <div style={{ color: isBlack ? 'black' : 'white' }} className= {`${styles.buttonGithub} ${styles.coolLink}`}>REPOSITORY</div>
-                    <div style={{ color: isBlack ? 'black' : 'white' }} className={`${styles.buttonLive} ${styles.coolLink}`}>LIVE DEMO</div>
+                <a href={linkRepo} style={{ color: isBlack ? 'black' : 'white' }} className= {`${styles.buttonGithub} ${styles.coolLink}`}>REPOSITORY</a>
+
+                <div style={{ color: isBlack ? 'black' : 'white' }} className={`${styles.buttonLive} ${styles.coolLink}`}>LIVE DEMO</div>
                 </div>
             </div>
         </div>
