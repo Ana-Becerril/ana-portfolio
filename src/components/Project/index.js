@@ -30,7 +30,7 @@ const Project = ({ title, image, imageMobile, description, year, stacksList, isB
                 <div className={styles.buttonsContainer}>
                 <a href={linkRepo} style={{ color: isBlack ? 'black' : 'white' }} className= {`${styles.buttonGithub} ${styles.coolLink}`}>REPOSITORY</a>
 
-                <div style={{ color: isBlack ? 'black' : 'white' }} className={`${styles.buttonLive} ${styles.coolLink}`}>LIVE DEMO</div>
+                <a href={linkLive} style={{ color: isBlack ? 'black' : 'white' }} className={`${styles.buttonLive} ${styles.coolLink}`}>LIVE DEMO</a>
                 </div>
             </div>
         </div>
