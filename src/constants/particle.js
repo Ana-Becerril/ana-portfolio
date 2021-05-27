@@ -2,7 +2,7 @@ const particles = {
   
     "particles": {
       "number": {
-        "value": 65,
+        "value": 80,
         "density": {
           "enable": true,
           "value_area": 800
@@ -69,21 +69,21 @@ const particles = {
       }
     },
     "interactivity": {
-      "detect_on": "window",
+       "detect_on": "window",
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "grab"
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": "repulse"
         },
         "resize": true
       },
       "modes": {
         "grab": {
-          "distance": 150,
+          "distance": 400,
           "line_linked": {
             "opacity": 1
           }
@@ -108,6 +108,7 @@ const particles = {
       }
     },
     "retina_detect": true
+    
   }
 
    export default particles

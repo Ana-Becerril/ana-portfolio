@@ -124,6 +124,8 @@ body, html{
 
 .homeContainer{
         height: 100vh;
+        z-index:9999;
+        position:relative;
 }
 
 body > div{
@@ -155,7 +157,7 @@ body > div{
 
 
     #tsparticles > canvas {
-        z-index: -11;
+        z-index: -10;
     }
 /*#particles-js {
         position: absolute;
@@ -221,6 +223,7 @@ body > div{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 2;
 }
 
 .arrowIcon{
