@@ -4,6 +4,7 @@
     display: flex;
     overflow-x: hidden;
     padding: 90px 0;
+    flex-direction: column;
 }
 
 .projectOne{
@@ -14,6 +15,10 @@
     align-items: center;
     align-content: center;
     
+}
+
+.mainContainer{
+    display: flex;
 }
 
 .mokupContainer{
@@ -148,6 +153,11 @@
   @media only screen and (max-width: 570px) {
     .parent{
     flex-direction: column;
+    }
+
+    .titleProject{
+        width: 100%;
+        height: 15%;
     }
 
     .mokupContainer{
