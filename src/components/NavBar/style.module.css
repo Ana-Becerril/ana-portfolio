@@ -94,3 +94,28 @@
   .githubIcon{
       padding-left: 150px;
   }
+
+  @media only screen and (max-width: 570px) {
+    .home, .about, .projects, .contact{
+        padding: 5px 25px 0 0;
+    }
+
+    .home{
+        padding-left: 50px;
+    }
+    
+    .homeText, .aboutText, .projectsText, .contactText{
+        width: 21px;
+        font-size: 11px;
+        font-family: 'Quicksand-Light', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .iconsBar{
+        display: none;
+    }
+
+    .bar{
+        width: 90%;
+    }
+  }

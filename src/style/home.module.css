@@ -236,3 +236,9 @@ body > div{
 	-webkit-animation: bounceTop 0.9s both;
 	        animation: bounceTop 0.9s both;
 }
+
+@media only screen and (max-width: 570px) {
+        .arrowIcon{
+                font-size: 40px;
+}
+}
