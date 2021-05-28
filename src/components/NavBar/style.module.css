@@ -107,7 +107,6 @@
     .homeText, .aboutText, .projectsText, .contactText{
         width: 21px;
         font-size: 11px;
-        font-family: 'Quicksand-Light', sans-serif;
         letter-spacing: 1px;
     }
 
