@@ -6,13 +6,13 @@ const Project = ({ title, image, imageMobile, description, year, stacksList, isB
 
         <div style={{ backgroundColor: isBlack ? 'rgb(236, 182, 2)' : 'black' }} className={styles.parent}>
             <div style={{ color: isBlack ? 'black' : 'white' }} className={styles.titleProject}>{title}</div>
+            <div style={{ color: isBlack ? 'black' : 'white' }} className={styles.year}>{year}</div>
             <div className={styles.mainContainer}>
                 <div className={styles.mokupContainer}>
                     <img alt="mockup" src={image} className={styles.mokup} />
                     <img alt="mockup" src={imageMobile} className={styles.mokupMobile} />
                 </div>
                 <div className={styles.infoContainer}>
-                    <div style={{ color: isBlack ? 'black' : 'white' }} className={styles.year}>{year}</div>
                     <div style={{ color: isBlack ? 'black' : 'white' }} className={styles.infoProject}>{description}</div>
                     <div style={{ color: isBlack ? 'black' : 'white' }} className={styles.stackContainer}>
                         <div style={{ color: isBlack ? 'black' : 'white' }} className={styles.stackTitle}>Stack:</div>

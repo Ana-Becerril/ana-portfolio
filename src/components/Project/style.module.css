@@ -153,11 +153,20 @@
   @media only screen and (max-width: 570px) {
     .parent{
     flex-direction: column;
+    padding: 53px 0
+    }
+
+    .mainContainer{
+        flex-direction: column;
     }
 
     .titleProject{
         width: 100%;
-        height: 15%;
+        height: 2%;
+    }
+
+    .year{
+        padding-bottom: 0;
     }
 
     .mokupContainer{
@@ -168,24 +177,19 @@
 
     .mokup{
       width: 640px;
-    height: 390px;
+    height: 370px;
     }
 
     .mokupMobile{
-        width: 95px;
-        height: 200px;
+        width: 93px;
+        height: 197px;
         left: 250px;
-        top:113px;
+        top: 109px
     }
 
     .infoContainer{
         width: 100%;
         height: 50%;
     }
-
-    .infoProject{
-        padding-left: 1;
-    }
-
 
   }
