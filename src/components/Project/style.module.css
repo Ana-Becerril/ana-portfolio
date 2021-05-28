@@ -143,3 +143,39 @@
     width: 100%;
     transition: width 0.5s;
   }
+
+
+  @media only screen and (max-width: 570px) {
+    .parent{
+    flex-direction: column;
+    }
+
+    .mokupContainer{
+        display: flex;
+        width: 100%;
+        height:30%;
+    }
+
+    .mokup{
+      width: 640px;
+    height: 390px;
+    }
+
+    .mokupMobile{
+        width: 95px;
+        height: 200px;
+        left: 250px;
+        top:113px;
+    }
+
+    .infoContainer{
+        width: 100%;
+        height: 50%;
+    }
+
+    .infoProject{
+        padding-left: 1;
+    }
+
+
+  }
