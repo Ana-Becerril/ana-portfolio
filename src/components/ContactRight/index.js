@@ -11,8 +11,8 @@ const ContactRight = () => (
     <input type="text" className={styles.fmail} value="Email"></input>
     <input type="text" className={styles.fbody} value=""></input>
     </form>
-    <button>Get in touch</button>
-
+    <button className={styles.DVersion}>Get in touch</button>
+    <button className={styles.MVersion}>Contact Form</button>
     </div>
 
     </>
