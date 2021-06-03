@@ -1,0 +1,55 @@
+.modal{
+    position: fixed;
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent{
+    width: 80%;
+    height: 70%;
+    background-color: transparent;
+}
+
+.parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+}
+
+.fname, .fmail{
+    height: 12%;
+    margin: 10px;
+    border:black solid 1px;
+    font-family: 'Poppins-Ligth';
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+.fbody{
+    height: 50%;
+    margin: 10px;
+    border:none;
+    font-family: 'Poppins-Ligth';
+    font-size: 16px;
+    border-radius: 5px;
+
+
+}
