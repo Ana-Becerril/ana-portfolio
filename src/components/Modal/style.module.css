@@ -51,5 +51,14 @@ form{
     font-size: 16px;
     border-radius: 5px;
 
+}
 
+.DVersion{
+    height: 12%;
+    width: 78%;
+    font-family: 'Poppins-Ligth';
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
 }

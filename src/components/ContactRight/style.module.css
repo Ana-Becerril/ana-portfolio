@@ -57,7 +57,7 @@ form{
      height: 20%;
 }
 
-form{
+.parent > form{
     display: none;
 }
 

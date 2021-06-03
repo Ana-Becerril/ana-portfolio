@@ -3,6 +3,7 @@ import styles from './style.module.css';
 
 
 const Modal = () => {
+
     return(
         <div className={styles.modal}>
             <div className={styles.modalContent}>
