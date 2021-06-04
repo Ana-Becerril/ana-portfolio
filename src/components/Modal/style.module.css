@@ -1,4 +1,11 @@
 .modal{
+    display: none;
+}
+
+@media only screen and (max-width: 570px) {
+
+
+.modal{
     position: fixed;
     left:0;
     top:0;
@@ -8,12 +15,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    align-content: center;
 }
 
 .modalContent{
-    width: 80%;
+
+    width: 90%;
     height: 70%;
     background-color: transparent;
+    display: flex;
+  
 }
 
 .parent{
@@ -29,11 +40,16 @@
 form{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .fname, .fmail{
+    width: 100%;
     height: 12%;
     margin: 10px;
     border:black solid 1px;
@@ -44,6 +60,7 @@ form{
 }
 
 .fbody{
+    width: 100%;
     height: 50%;
     margin: 10px;
     border:none;
@@ -55,10 +72,12 @@ form{
 
 .DVersion{
     height: 12%;
-    width: 78%;
+    width: 58%;
     font-family: 'Poppins-Ligth';
     font-size: 18px;
     border-radius: 8px;
-    background-color: black;
-    color: white;
+    background-color: rgb(236, 182, 2);
+    color: black;
+}
+
 }

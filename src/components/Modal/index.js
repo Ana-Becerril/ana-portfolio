@@ -2,7 +2,11 @@ import React from 'react';
 import styles from './style.module.css';
 
 
-const Modal = () => {
+const Modal = props => {
+
+    if(!props.show){
+        return null
+    }
 
     return(
         <div className={styles.modal}>
