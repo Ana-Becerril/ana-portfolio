@@ -9,8 +9,8 @@ const Modal = props => {
     }
 
     return(
-        <div className={styles.modal}>
-            <div className={styles.modalContent}>
+        <div className={styles.modal} onClick={props.onClose}>
+            <div className={styles.modalContent} onClick={e => e.stopPropagation()}>
             <div className={styles.parent}>
 
 <form>
