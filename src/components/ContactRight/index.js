@@ -17,7 +17,7 @@ const ContactRight = () => {
                 </form>
                 <button className={styles.DVersion}>Get in touch</button>
                 <button onClick={() => setShow(true)} className={styles.MVersion}>Contact Form</button>
-                <Modal show={show} className={styles.modal} />
+                <Modal onClose={() => setShow(false)} show={show} className={styles.modal} />
             </div>
 
         </>
