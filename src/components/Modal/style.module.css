@@ -5,6 +5,8 @@
 @media only screen and (max-width: 570px) {
 
 
+
+
 .modal{
     position: fixed;
     left:0;
@@ -33,6 +35,26 @@
     align-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.closebContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding-top: 15px;
+   
+}
+
+.closeb{
+    height: 100%;
+    width: 12%;
+    font-family: 'Poppins-Ligth';
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: rgb(236, 182, 2);
+    color: black;
 }
 
 form{

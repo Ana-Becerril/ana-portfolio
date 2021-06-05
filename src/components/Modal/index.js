@@ -7,11 +7,14 @@ const Modal = props => {
     if (!props.show) {
         return null
     }
-
+//hacer un botón que cierre el modal
     return (
-        <div className={styles.modal} onClick={props.onClose}>
+        <div className={styles.modal}>
             <div className={styles.modalContent} onClick={e => e.stopPropagation()}>
                 <div className={styles.parent}>
+                <div className={styles.closebContainer}>
+                <button className={styles.closeb} onClick={props.onClose}>X</button>
+                </div>
                     <form>
                         <input type="text" className={styles.fname} value="Name"></input>
                         <input type="text" className={styles.fmail} value="Email"></input>
