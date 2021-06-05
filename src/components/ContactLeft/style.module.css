@@ -47,6 +47,36 @@
     color: white;
   }
 
+  @media screen and (min-width:571px) and (max-width: 906px) {
+
+    .parent{
+        width: 100%;
+        height: 78%;
+    }
+
+    .title{
+        font-size: 35px;
+    }
+    
+.body{
+    font-size: 18px;
+}
+
+.iconsBarContact{
+    height: 50%;
+    width: 50%;
+}
+
+.githubIcon, .linkedinIcon, .twitterIcon{
+    font-size: 60px;
+    padding-bottom: 50px;
+    height: 50%;
+
+}
+
+
+  }
+
   @media only screen and (max-width: 570px) {
     .parent{
         width: 100%;

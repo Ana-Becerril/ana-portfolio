@@ -95,6 +95,34 @@
       padding-left: 150px;
   }
 
+  @media screen and (min-width:571px) and (max-width: 906px) {
+    .home, .about, .projects, .contact{
+        padding: 5px 25px 0 0;
+    }
+
+    .home{
+        padding-left: 50px;
+    }
+    
+    .homeText, .aboutText, .projectsText, .contactText{
+        width: 21px;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .githubIcon, .linkedinIcon, .twitterIcon{
+        padding-bottom: 10px;
+    }
+
+    .iconsBar{
+        height: 85%;
+        width: 46%;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+
+  }
+
   @media only screen and (max-width: 570px) {
     .home, .about, .projects, .contact{
         padding: 5px 25px 0 0;

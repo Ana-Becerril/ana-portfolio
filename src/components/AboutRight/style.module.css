@@ -46,6 +46,36 @@ p{
     width: 87%;
 }
 
+@media screen and (min-width:571px) and (max-width: 906px) {
+    .parent{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .title{
+        padding-top: 90px;
+
+}
+
+    .console{
+    width: 100%;
+    height: 100%;
+
+    }
+
+    p{
+        font-size: 24px;
+    padding: 12px 12px;
+    height: 100%;
+    width: 90%;
+    }
+
+}
+
 @media only screen and (max-width: 570px) {
 
     .parent{

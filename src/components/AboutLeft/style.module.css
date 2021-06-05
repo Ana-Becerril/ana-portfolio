@@ -34,6 +34,18 @@ body > div{
 
 }
 
+@media screen and (min-width:571px) and (max-width: 906px) {
+    .parent{
+        width: 0;
+        height: 0;
+    }
+    
+    .photoContainer{
+     display: none;
+    }
+
+}
+
 @media only screen and (max-width: 570px) {
 
 .parent{

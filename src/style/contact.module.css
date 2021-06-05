@@ -39,6 +39,13 @@ body, html {
     z-index: -10;
 }
 
+@media screen and (min-width:571px) and (max-width: 906px) {
+
+    .contactParent{
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width: 570px) {
 
     .contactParent{

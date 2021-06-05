@@ -7,7 +7,7 @@ const Modal = props => {
     if (!props.show) {
         return null
     }
-//hacer un botón que cierre el modal
+    
     return (
         <div className={styles.modal}>
             <div className={styles.modalContent} onClick={e => e.stopPropagation()}>

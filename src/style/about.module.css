@@ -13,6 +13,12 @@ body, html {
 
 }
 
+@media screen and (min-width:571px) and (max-width: 906px) {
+    .aboutContainer{
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width: 570px) {
 .aboutContainer{
     flex-direction: column;
