@@ -2,6 +2,8 @@ import React from 'react';
 import styles from './style.module.css';
 import Modal from '../Modal'
 import { useState } from 'react';
+import { send } from 'emailjs-com';
+
 
 const ContactRight = () => {
 
