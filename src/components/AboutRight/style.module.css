@@ -46,6 +46,15 @@ p{
     width: 87%;
 }
 
+@media screen and (min-width:907px) and (max-width: 1329px) {
+    p{
+        font-size: 22px;
+        padding: 0 10px;
+        height: 92%;
+        width: 95%;
+    }
+}
+
 @media screen and (min-width:571px) and (max-width: 906px) {
     .parent{
         width: 100%;

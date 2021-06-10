@@ -47,6 +47,19 @@
     color: white;
   }
 
+  @media screen and (min-width:907px) and (max-width: 1329px) {
+
+    .title{
+        font-size: 30px;
+    }
+
+    .body{
+        font-size: 20px;
+        width: 80%;
+    }
+
+  }
+
   @media screen and (min-width:571px) and (max-width: 906px) {
 
     .parent{

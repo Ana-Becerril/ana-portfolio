@@ -50,6 +50,17 @@ form{
     display: none;
 }
 
+@media screen and (min-width:907px) and (max-width: 1329px) {
+    form{
+        width: 90%;
+    }
+
+    .DVersion{
+        height: 12%;
+        width: 30%;
+    }
+}
+
 @media screen and (min-width:571px) and (max-width: 906px) {
 
     .parent{

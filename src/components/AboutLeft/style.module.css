@@ -34,6 +34,20 @@ body > div{
 
 }
 
+@media screen and (min-width:907px) and (max-width: 1329px) {
+    .photoContainer{
+        width: 350px;
+        height: 450px;
+    }
+
+    .profileAna{
+        width:290px;
+        height: 388px;
+    
+    }
+}
+
+
 @media screen and (min-width:571px) and (max-width: 906px) {
     .parent{
         width: 0;

@@ -37,8 +37,8 @@
 }
 
 .mokupMobile{
-    width: 190px;
-    height: 380px;
+    width: 177px;
+    height: 357px;
     position: absolute;
     right: 25px;
     top:65px
@@ -147,6 +147,16 @@
   .coolLink:hover::after {
     width: 100%;
     transition: width 0.5s;
+  }
+
+  @media screen and (min-width:907px) and (max-width: 1329px) {
+    .mokupMobile{
+        width: 140px;
+        height: 290px;
+        left: 72%;
+        top: 24%;
+    }
+
   }
 
   @media screen and (min-width:571px) and (max-width: 906px) {
