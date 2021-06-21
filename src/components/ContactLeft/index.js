@@ -21,6 +21,8 @@ const ContactLeft = () => (
             <FontAwesomeIcon icon ={faTwitterSquare} className={styles.twitterIcon}/>
         </a>
         </div>
+        <p className={styles.or}> Or </p>
+        <button> Send a mail </button>
     </div>
     </>
 );
