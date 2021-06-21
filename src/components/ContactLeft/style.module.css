@@ -84,14 +84,14 @@ button{
 
     .parent{
         width: 100%;
-        height: 78%;
+        height: 100%;
     }
 
     .title{
         font-size: 35px;
     }
     
-.body{
+.body, .or{
     font-size: 18px;
 }
 
@@ -101,10 +101,15 @@ button{
 }
 
 .githubIcon, .linkedinIcon, .twitterIcon{
-    font-size: 60px;
-    padding-bottom: 50px;
-    height: 50%;
+    font-size: 59px;
+    height: 100%;
 
+}
+
+button{
+    height: 23%;
+    width: 35%;
+    margin-bottom:20px;
 }
 
 
@@ -113,14 +118,14 @@ button{
   @media only screen and (max-width: 570px) {
     .parent{
         width: 100%;
-        height: 78%;
+        height: 100%;
     }
 
     .title{
         font-size: 35px;
     }
     
-.body{
+.body, .or{
     font-size: 18px;
 }
 
@@ -130,13 +135,16 @@ button{
 }
 
 .githubIcon, .linkedinIcon, .twitterIcon{
-    font-size: 60px;
-    padding-bottom: 50px;
-    height: 50%;
+    font-size: 59px;
+    height: 100%;
 
 }
 
-
+button{
+    height: 23%;
+    width: 45%;
+    margin-bottom:20px;
+}
 
 
   }
