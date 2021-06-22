@@ -44,7 +44,7 @@
     align-content: center;
 }
 
-.githubIcon, .linkedinIcon, .twitterIcon{
+.githubIcon, .linkedinIcon, .twitterIcon, .whatsappIcon{
     color:black;
     font-size: 60px;
     height: 100%;
@@ -53,7 +53,7 @@
     padding-bottom: 8px;
 }
 
-.githubIcon:hover, .linkedinIcon:hover, .twitterIcon:hover {
+.githubIcon:hover, .linkedinIcon:hover, .twitterIcon:hover, .whatsappIcon:hover {
     color: white;
   }
 
@@ -131,13 +131,13 @@ button{
 
 .iconsBarContact{
     height: 50%;
-    width: 50%;
+    width: 80%;
 }
 
-.githubIcon, .linkedinIcon, .twitterIcon{
+.githubIcon, .linkedinIcon, .twitterIcon, .whatsappIcon{
     font-size: 59px;
     height: 100%;
-
+    padding:0 10px;
 }
 
 button{

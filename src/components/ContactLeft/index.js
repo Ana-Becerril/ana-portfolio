@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithubSquare, faLinkedin, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import { faGithubSquare, faLinkedin, faTwitterSquare,faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -19,6 +19,9 @@ const ContactLeft = () => (
         </a>
         <a href="https://twitter.com/karenbecbel">
             <FontAwesomeIcon icon ={faTwitterSquare} className={styles.twitterIcon}/>
+        </a>
+        <a href="https://wa.me/525585516701">
+            <FontAwesomeIcon icon ={faWhatsappSquare} className={styles.whatsappIcon}/>
         </a>
         </div>
         <p className={styles.or}> Or </p>

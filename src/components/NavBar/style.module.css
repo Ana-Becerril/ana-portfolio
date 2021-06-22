@@ -78,7 +78,7 @@
     align-content: center;
 }
 
-.githubIcon, .linkedinIcon, .twitterIcon{
+.githubIcon, .linkedinIcon, .twitterIcon, .whatsappIcon{
     color:white;
     font-size: 40px;
     height: 100%;
@@ -87,7 +87,7 @@
     padding-bottom: 8px;
 }
 
-.githubIcon:hover, .linkedinIcon:hover, .twitterIcon:hover {
+.githubIcon:hover, .linkedinIcon:hover, .twitterIcon:hover, .whatsappIcon:hover {
     color: rgb(236, 182, 2);
   }
 
