@@ -58,8 +58,8 @@
   }
 
 button{
-    height: 18%;
-    width: 20%;
+    height: 100%;
+    width: 100%;
     font-family: 'Poppins-Ligth';
     font-size: 18px;
     border-radius: 8px;

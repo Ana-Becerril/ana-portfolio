@@ -22,7 +22,9 @@ const ContactLeft = () => (
         </a>
         </div>
         <p className={styles.or}> Or </p>
-        <button> Send a mail </button>
+        <a href="mailto:anabecdev@gmail.com?subject=Mail%20from%20Ana's%20Portfolio&body=Hi%2C%20Ana!%0D%0A">
+        <button className={styles.buttonMail}> Send a mail </button>
+        </a>
     </div>
     </>
 );
